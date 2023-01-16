@@ -1,0 +1,11 @@
+
+services:
+  json_server:
+    container_name: json_server
+    image: node:18.13
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: npm run dev

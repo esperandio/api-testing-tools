@@ -1,0 +1,23 @@
+{
+    "name": "root/app",
+    "autoload": {
+        "psr-4": {
+            "Root\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheus Felipe Esperandio",
+            "email": "mat.esperandio@gmail.com"
+        }
+    ],
+    "scripts": {
+        "codecept": "vendor/bin/codecept run"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*",
+        "codeception/module-rest": "^3.3"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "root/app",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Matheus Felipe Esperandio",
+            "email": "mat.esperandio@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts": {
+        "phpunit": "./vendor/bin/phpunit --testdox tests"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
